@@ -1,0 +1,66 @@
+#diffcolor{
+  color:red;
+}
+h1{
+font-family: 'Fondamento', cursive;
+}
+.flex-container{
+  padding-top:20px;
+  padding-left:40px;
+  display:flex;
+}
+.logo{
+  width: auto;
+  height:70px;
+  margin-right:10px;
+}
+body{
+  background-color: #DCDCDC;
+}
+.header{
+  display:flex;
+  justify-content: space-between;
+}
+.link-color{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  padding:20px;
+}
+a:hover{
+  text-decoration: underline;
+}
+.space{
+  padding-top:40px;
+  padding-right: 30px;
+}
+.main-line{
+width:1000px;
+  font-size: 50px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.narrowspace{
+  text-align:right;
+}
+.text-color{
+  color:grey;
+}
+.text-size{
+  text-align:center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.email{
+  position: absolute;
+ left: 50%;
+ margin-left: -50px;
+ padding: 20px;
+
+}
+input{
+  width: 50%;
+}
+.abc{
+  width: 100%;
+}
