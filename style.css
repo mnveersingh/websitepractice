@@ -51,16 +51,39 @@ width:1000px;
   font-size: 20px;
   font-weight: bold;
 }
-.email{
-  position: absolute;
- left: 50%;
- margin-left: -50px;
- padding: 20px;
-
+.content{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
 }
 input{
-  width: 50%;
+height: 50px;
+
 }
-.abc{
-  width: 100%;
+
+.icons{
+  display:flex;
+}
+.svg-size{
+  width: 75px;
+  padding:50px 175px;
+  height: auto;
+  color: black;
+  fill:grey;
+}
+#email{
+  padding:20px;
+  border: none;
+  font-size: 15px;
+  box-shadow: 1px 1px 5px grey;
+}
+#get-started{
+  background-color:#65D777;
+  border: none;
+  color:white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 15px;
+    box-shadow: 1px 1px 5px grey;
 }
