@@ -23,7 +23,6 @@ body{
 }
 .link-color{
   text-decoration: none;
-  font-weight: bold;
   font-size: 20px;
   padding:20px;
 }
@@ -63,6 +62,7 @@ height: 50px;
 
 .icons{
   display:flex;
+  align-items: center;
 }
 .svg-size{
   width: 75px;
@@ -86,4 +86,108 @@ height: 50px;
   padding: 15px;
   font-size: 15px;
     box-shadow: 1px 1px 5px grey;
+}
+.writing{
+  margin-left: 110px;
+  margin-top: -10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 2px;
+}
+.text-padding{
+  padding: 50px;
+  margin-top:-60px;
+}
+.p-size{
+  text-align:center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.background{
+  background-color: white;
+  width: 100%;
+}
+.instructors{
+  text-align: center;
+  padding-top: 70px;
+  font-size: 50px;
+}
+.list-color{
+  text-decoration: none;
+  color: #DE3F1C;
+ padding-left: 550px;
+ font-family:  'Source Sans Pro', sans-serif;
+ font-weight: bold;
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+}
+.photo-id{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+}
+.flexy{
+  display: flex;
+}
+#manveer{
+  margin-left: 50px;
+}
+.writings{
+  padding-left: 30px;
+  padding-top: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.right-flex{
+  padding-right: 100px;
+}
+.paragraph{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: grey;
+  font-weight: bold;
+  margin: -20px;
+  margin-left: 25px;
+}
+.list1{
+  display: flex;
+}
+.flexy1{
+  display: flex;
+  justify-content: space-between;
+}
+#sandeep{
+    margin-left: 50px;
+}
+#Manpreet{
+  margin-left: 50px;
+}
+.ending{
+  background-color: #DCDCDC;
+  width: 500px;
+  height: 190px;
+  margin: 0 auto;
+  margin-top: 120px;
+  text-align: center;
+  padding: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+h3{
+  font-weight: bold;
+}
+#line{
+  color:grey;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+#copyright{
+  color: grey;
+  margin-left: 30px;
 }
